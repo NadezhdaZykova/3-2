@@ -7,9 +7,10 @@ package domain;
         private int date;
         private String text;
         private CommentsInfo commentsInfo;
-        private int counterLikes;
-        private int counterRepost;
-        private int counterView;
+        private CounterLike counterLikes;
+        private CounterRepost counterRepost;
+        private CounterView counterView;
+        private Copyright copyright;
 
         public void CommentsInfo() {
             int counter;
