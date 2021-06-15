@@ -19,12 +19,12 @@ public class Post {
     private PostSource PostSource;
     private Geo geo;
     private int signerId;
-    private int can_pin;
-    private int can_delete;
-    private int can_edit;
-    private int is_pinned;
-    private int marked_as_ads;
-    private boolean is_favorite;
+    private int canPin;
+    private int canDelete;
+    private int canEdit;
+    private int isPinned;
+    private int markedAsAds;
+    private boolean isFavorite;
     private Donut donut;
     private int postponedId;
 
