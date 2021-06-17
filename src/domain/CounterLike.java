@@ -3,7 +3,7 @@ package domain;
 public class CounterLike {
     private int count;
     private int userLike;
-    private int canLike;
-    private int canPublish;
+    private boolean canLike;
+    private boolean canPublish;
     // + getters/setters*
 }
