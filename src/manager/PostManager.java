@@ -5,7 +5,7 @@ import domain.Post;
 public class PostManager {
     private Post[] posts;
 
-    public Post[] search(int count, Post[] posts ) {
+    public Post[] search(int count, int post_id) {
         Post[] posts = postManager.getPostsForFeed();
 
         return null;
