@@ -3,18 +3,16 @@ package manager;
 import domain.Post;
 
 public class PostManager {
-    private Post[] posts;
-
     public Post[] search(int count, int post_id) {
-        Post[] posts = postManager.getPostsForFeed();
+        private Post[] post;
 
-        return null;
-    }
+        public Post[] searchPost(int ownerId, String domain, boolean ownersOnly, int count, int offset){
+//        TODO: add logic
+            return null;
+        }
 
-    public void delete(int ownerID, int post_id)
-
-    {
-        int postId;
-
+        public void delete (int ownerId, int postId){
+//        TODO: add logic
+        }
     }
 }
